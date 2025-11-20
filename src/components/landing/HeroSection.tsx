@@ -10,7 +10,7 @@ export const HeroSection = () => {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgba(255,255,255,0.15)_1px,transparent_0)] bg-[length:20px_20px]"></div>
       </div>
       
-      <div className="container mx-auto px-6 relative z-10">
+      <div className="container mx-auto px-6 py-40 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="space-y-8">
@@ -20,10 +20,15 @@ export const HeroSection = () => {
                 Modular Billing Revolution
               </div>
               <h1 className="text-5xl lg:text-7xl font-bold text-white leading-tight">
-                eUBS
+                {/* eUBS */}
+                PPIS
                 <span className="block text-3xl lg:text-4xl font-normal mt-2 text-white/90">
                   Electronic Universal Billing System
                 </span>
+
+                {/* <span className="block text-3xl lg:text-4xl font-normal mt-2 text-white/90">
+                  Public And Private Invoice System
+                </span> */}
               </h1>
               <p className="text-xl text-white/90 leading-relaxed max-w-2xl">
                 The world's first truly modular billing platform. One core system, infinite possibilities. 

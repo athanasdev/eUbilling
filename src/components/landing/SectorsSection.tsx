@@ -14,6 +14,7 @@ import {
 import sectorsImage from "@/assets/sectors-grid.jpg";
 
 const sectors = [
+
   {
     icon: Heart,
     name: "Healthcare",
@@ -91,7 +92,7 @@ export const SectorsSection = () => {
             One Platform, Every Industry
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            eUBS adapts to your industry's unique billing requirements with specialized modules 
+            PPIS adapts to your industry's unique billing requirements with specialized modules 
             while maintaining a unified core system for consistency and efficiency.
           </p>
         </div>
@@ -128,4 +129,6 @@ export const SectorsSection = () => {
       </div>
     </section>
   );
+
 };
+
